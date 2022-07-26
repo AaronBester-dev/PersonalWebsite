@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import rat from './images/rat.jpg'
+import Navbar from './Navbar';
 
 function App() {
   function button(e){
@@ -9,23 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      
-      
       <header className="App-header">
-        <h1>Aaron Bester Developer</h1>
-        <div>
-          <button onClick={button}>
-            <text>Home</text>
-          </button>
-
-          <button onClick={button}>
-            <text>NCR</text>
-          </button>
-
-          <button onClick={button}>
-            <text>The Co-operators</text>
-          </button>
-        </div>
+        <Navbar></Navbar>
 
         <div className='ratphoto'>
           <div className="block">
