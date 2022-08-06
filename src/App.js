@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Page.css";
 import rat from "./images/rat.jpg";
 import resume from "./images/AaronBesterResume.pdf"
 import Navbar from "./Navbar";
@@ -7,7 +8,7 @@ import WorkReportsBar from "./WorkReportsBar";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="PageHeader">
         {/* Main Navigation Bar */}
         <Navbar></Navbar>
 
