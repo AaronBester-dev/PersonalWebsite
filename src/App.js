@@ -1,7 +1,7 @@
 import "./App.css";
 import "./Page.css";
 import rat from "./images/rat.jpg";
-import resume from "./images/AaronBesterResume.pdf"
+
 import Navbar from "./Navbar";
 import WorkReportsBar from "./WorkReportsBar";
 
