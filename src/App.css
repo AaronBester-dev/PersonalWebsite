@@ -8,12 +8,18 @@ text {
 }
 
 .block {
-  width: 1000px;
-  height: 500px;
+  width: 80%;
+  height: 50%;
   background: #0069ed;  
   display: flex;
 }
 
+.column {
+  width: 1000px;
+  height: 500px;
+  background:  #0069ed;
+  display: flex; 
+}
 .ratphoto{
   display: flex;
   align-items: center;

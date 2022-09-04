@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <header className="PageHeader">
         {/* Main Navigation Bar */}
+        <h1>Aaron Bester Developer</h1>
         <Navbar></Navbar>
 
         {/* Welcome */}
