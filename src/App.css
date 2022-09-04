@@ -8,8 +8,8 @@ text {
 }
 
 .block {
-  width:90%;
-  height: 50%;
+  width:auto;
+  height: auto;
   background: #39414d;  
   display: flex;
   border-radius:1cm;
@@ -17,6 +17,9 @@ text {
   padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 10;
+  align-content: center;
+  align-self: center;
+  text-align: center;
 }
 
 .column {
