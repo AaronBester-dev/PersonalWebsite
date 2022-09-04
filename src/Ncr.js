@@ -1,44 +1,115 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Page.css";
-// Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Ncr() {
-  return (
-    <div className="Ncr">
-      <header className="PageHeader">
-        <h1>NCR Work Report 2021</h1>
-        <Navbar></Navbar>
-        <div style={{ width: "50%", height: "60%" }} className="block">
-          <p>
-            This is my work term report for my remote work term at NCR in
-            Waterloo which lasted from September 2021 to December 2021. I
-            sincerely hope by the time you finish reading this work report you
-            will understand both what I learned and what I achieved during my 4
-            month work term at NCR.
-          </p>
-        </div>
-        <h1>About NCR</h1>
-        <div className="block">
-          <p>
-            NCR is an American software, management and professional services,
-            consulting and technology company that was founded in 1884 in
-            Atlanta, Georgia. At first NCR was created to sell and produce the
-            first ever mechanical cash register, but since then has grown into a
-            gigantic multinational corporation that is famous in the financial
-            space. Now NCR not only sells and produces cash registers, but also
-            ATMS, self-service kiosks, barcode scanners and even point of sale
-            terminals. NCR not only produces the physical parts for those
-            machines but also the software, which is the area of NCR I worked in
-            during this term. NCR is by far one of the biggest companies in the
-            financial world and I am very happy I was privileged to work there
-            this term.
-          </p>
-        </div>
+  function isMobile(){
+    const { innerWidth: width} = window;
+    console.log(width)
+    if(width < 576){
+      console.log("TRUE")
+      return true;
+    }
+    else{
+      console.log("FALSE3")
+      return false;
+    }
+
+  }
+  
+  function getMobileLearningGoals() {
+    return (
+      <div style={{ textAlign: "center" }}>
         <h1>Goals</h1>
+        <h2>Learning Goal 1</h2>
+        <p>
+          The first skill that I would like to learn during my time at NCR is
+          how to create APIs. I personally would like to learn more about APIs
+          as APIs are now an integral part of software development. Learning
+          about not only what APIs are but how they work and how to create them
+          will be important to my future as a programmer.
+        </p>
+
+        <p>
+          My plan to learn more about APIs will start with completing NCR’s
+          training on APIs. After completing the API training I will be working
+          on NCR’s Core Integration team which works on creating APIs that their
+          customers use; while working at NCR I will learn more about APIs. I
+          also intend to try to create my own APIs in my own free time in order
+          to truly understand how to create an API and how it works.
+        </p>
+
+        <p>
+          I will know I have achieved my goal when I have created my own API. In
+          order to create your own API you need to know every aspect of an API
+          such as what it is, how to make one, and how to use it so it is by far
+          the best way to show what I have learned.
+        </p>
+
+        <h2> Learning Goal 2</h2>
+        <p>
+          The second skill I want to learn during my time at NCR is learning
+          about different testing methodologies. I want to learn about different
+          types of tests as testing is an extremely important part of
+          development. Learning about the different types of tests and how to
+          create them using tools like Cucumber will be invaluable to my future.
+        </p>
+        <p>
+          To learn more about different types of software tests is to learn
+          about testing methodologies like end-to-end tests, unit tests, and
+          integration tests from different sources at NCR. For example, NCR has
+          a learning website dedicated to learning about programming knowledge
+          so I will use that website as well as help from more knowledgeable
+          co-workers. I will also use some of my free time to research
+          information online about testing and try to learn more about different
+          testing methodologies and which one is best in which situation. I am
+          also certain that at NCR I will have to write and conduct different
+          types of tests for the code I create so I will be able to put my
+          learning into practice there.
+        </p>
+        <p>
+          I will know I have completed my goal when during my time at NCR I have
+          debugged my own programs using different testing methodologies.
+        </p>
+
+        <h2> Learning Goal 3</h2>
+        <p>
+          The third and final skill I want to learn during my time at NCR is
+          agile software development as most companies have moved away from the
+          classic waterfall development cycle and moved on to agile. Because of
+          this change, I believe knowledge about how agile development works and
+          how one uses agile to create software efficiently will be useful for
+          my future career.
+        </p>
+
+        <p>
+          My plan to learn more about agile methodology is to learn while using
+          it at NCR. NCR follows the agile development methodology so while I am
+          working there I will undoubtedly learn what agile development is by
+          using it every single day I work there. I have already received
+          training on Agile and I will continue to learn more simply by working
+          at NCR. If I ever feel confused about Agile methodology then I will
+          either ask my co-workers about it or consult the internet.
+        </p>
+
+        <p>
+          I will know I have learned about Agile development when I have reached
+          the end of my work term at NCR and all of my assigned tasks for each
+          sprint have been completed by me. NCR's development process closely
+          follows the Agile methodology so if I can complete my work term and
+          complete all of my assigned tasks I will have followed Agile
+          methodology properly.
+        </p>
+      </div>
+    );
+  }
+
+  function getDesktopLearningGoals() {
+    return (
+      <div>
+        <h1 style={{ textAlign: "center" }}>Goals </h1>
         <div className="container text-center">
           <div className="row">
             <div className="col-sm">
@@ -163,6 +234,45 @@ function Ncr() {
             </div>
           </div>
         </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="Ncr">
+      <header className="PageHeader">
+        <br></br>
+        <div className="bigboy">NCR Work Report 2021</div>
+        <Navbar></Navbar>
+        <div style={{ width: "50%", height: "60%" }} className="block">
+          <p>
+            This is my work term report for my remote work term at NCR in
+            Waterloo which lasted from September 2021 to December 2021. I
+            sincerely hope by the time you finish reading this work report you
+            will understand both what I learned and what I achieved during my 4
+            month work term at NCR.
+          </p>
+        </div>
+        <h1>About NCR</h1>
+        <div className="block">
+          <p>
+            NCR is an American software, management and professional services,
+            consulting and technology company that was founded in 1884 in
+            Atlanta, Georgia. At first NCR was created to sell and produce the
+            first ever mechanical cash register, but since then has grown into a
+            gigantic multinational corporation that is famous in the financial
+            space. Now NCR not only sells and produces cash registers, but also
+            ATMS, self-service kiosks, barcode scanners and even point of sale
+            terminals. NCR not only produces the physical parts for those
+            machines but also the software, which is the area of NCR I worked in
+            during this term. NCR is by far one of the biggest companies in the
+            financial world and I am very happy I was privileged to work there
+            this term.
+          </p>
+        </div>
+
+        {isMobile() ? getMobileLearningGoals() : getDesktopLearningGoals()}
+
         <h1>Did I Achieve My Goals</h1>
         <div className="block">
           <p>

@@ -8,10 +8,15 @@ text {
 }
 
 .block {
-  width: 80%;
+  width:90%;
   height: 50%;
-  background: #0069ed;  
+  background: #39414d;  
   display: flex;
+  border-radius:1cm;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10;
 }
 
 .column {

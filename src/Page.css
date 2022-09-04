@@ -1,6 +1,6 @@
 
 .PageHeader {
-  background-color: #282c34;
+  background-color: #28303d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,4 +8,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.bigboy{
+  font-family: Georgia, sans-serif;
+  font-size: 4em;
 }

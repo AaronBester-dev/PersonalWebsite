@@ -6,8 +6,9 @@ function WorkReportsBar() {
   return (
     <div className="Navbar">
       <div>
-        <Link to="/ncr" className="button-9">NCR</Link>
-        <Link to="/" className="button-9">The Cooperators</Link>
+        <Link to="/" className="navbutton">The Cooperators</Link>
+        <Link to="/ncr" className="navbutton">NCR 2021</Link>
+        <Link to="/ncr" className="navbutton">NCR 2022</Link>
       </div>
       <br></br>
     </div>

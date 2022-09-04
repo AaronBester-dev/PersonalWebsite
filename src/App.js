@@ -1,7 +1,8 @@
 import "./App.css";
 import "./Page.css";
 import rat from "./images/rat.jpg";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import Navbar from "./Navbar";
 import WorkReportsBar from "./WorkReportsBar";
 
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       <header className="PageHeader">
         {/* Main Navigation Bar */}
-        <h1>Aaron Bester Developer</h1>
+        <br></br>
+        <div className="bigboy">Aaron Bester Developer</div>
         <Navbar></Navbar>
 
         {/* Welcome */}
@@ -23,7 +25,7 @@ function App() {
               the amazing experiences I’ve had so far doing coop jobs!
             </p>
           </div>
-          <img src={rat} alt="rat" />
+          <img src={rat} className="img-fluid" alt="rat" />
         </div>
 
         {/* //Work Reports */}

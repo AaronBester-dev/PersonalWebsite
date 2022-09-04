@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Navbar() {
   return (
     <div className="Navbar">
-
       <div>
-        <Link to="/" className="button-9">Home</Link>
-        <Link to="/ncr" className="button-9">NCR</Link>
-        <Link to="/" className="button-9">The Cooperators</Link>
+        <Link to="/" className="navbutton">Home</Link>
+        <Link to="/" className="navbutton">Co-operators Work Report</Link>
+        <Link to="/ncr" className="navbutton">NCR 2021 Work Report</Link>
+        <Link to="/ncr" className="navbutton">NCR 2022 Work Report</Link>
       </div>
       <br></br>
     </div>
