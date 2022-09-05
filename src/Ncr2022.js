@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Page.css";
+import ncrlogo from "./images/ncr.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-function Ncr() {
+function Ncr2022() {
   function isMobile() {
     const { innerWidth: width } = window;
     console.log(width);
@@ -21,6 +22,7 @@ function Ncr() {
     return (
       <div style={{ textAlign: "center" }}>
         <h1>Goals</h1>
+        <br></br>
         <h2>Learning Goal 1</h2>
         <div className="block">
           <p>
@@ -138,23 +140,20 @@ function Ncr() {
     return (
       <div>
         <h1 style={{ textAlign: "center" }}>Goals </h1>
+        <br></br>
         <div className="container text-center">
           <div className="row">
-            <div className="col-sm">
+            <div className="col">
               <h2>Learning Goal</h2>
             </div>
 
-            <div className="col-sm">
+            <div className="col">
               <h2> Learning Goal 2</h2>
             </div>
-
-            <div className="col-sm">
-              <h2> Learning Goal 3</h2>
-            </div>
           </div>
-
+          <br></br>
           <div className="row">
-            <div className="col-sm">
+            <div className="col">
               <div className="block">
                 <p>
                   The first skill that I would like to learn during my time at
@@ -167,7 +166,7 @@ function Ncr() {
               </div>
             </div>
 
-            <div className="col-sm">
+            <div className="col">
               <div className="block">
                 <p>
                   The second skill I want to learn during my time at NCR is
@@ -179,24 +178,11 @@ function Ncr() {
                 </p>
               </div>
             </div>
-
-            <div className="col-sm">
-              <div className="block">
-                <p>
-                  The third and final skill I want to learn during my time at
-                  NCR is agile software development as most companies have moved
-                  away from the classic waterfall development cycle and moved on
-                  to agile. Because of this change, I believe knowledge about
-                  how agile development works and how one uses agile to create
-                  software efficiently will be useful for my future career.
-                </p>
-              </div>
-            </div>
           </div>
           <br></br>
 
           <div className="row">
-            <div className="col-sm">
+            <div className="col">
               <div className="block">
                 <p>
                   My plan to learn more about APIs will start with completing
@@ -210,7 +196,7 @@ function Ncr() {
               </div>
             </div>
 
-            <div className="col-sm">
+            <div className="col">
               <div className="block">
                 <p>
                   To learn more about different types of software tests is to
@@ -228,8 +214,58 @@ function Ncr() {
                 </p>
               </div>
             </div>
+          </div>
+          <br></br>
+          <div className="row">
+            <div className="col">
+              <div className="block">
+                <p>
+                  I will know I have achieved my goal when I have created my own
+                  API. In order to create your own API you need to know every
+                  aspect of an API such as what it is, how to make one, and how
+                  to use it so it is by far the best way to show what I have
+                  learned.
+                </p>
+              </div>
+              <br></br>
+            </div>
 
-            <div className="col-sm">
+            <div className="col">
+              <div className="block">
+                <p>
+                  I will know I have completed my goal when during my time at
+                  NCR I have debugged my own programs using different testing
+                  methodologies.
+                </p>
+              </div>
+              <br></br>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <h2> Learning Goal 3</h2>
+            </div>
+          </div>
+          <br></br>
+
+          <div className="row">
+            <div className="col">
+              <div className="block">
+                <p>
+                  The third and final skill I want to learn during my time at
+                  NCR is agile software development as most companies have moved
+                  away from the classic waterfall development cycle and moved on
+                  to agile. Because of this change, I believe knowledge about
+                  how agile development works and how one uses agile to create
+                  software efficiently will be useful for my future career.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br></br>
+
+          <div className="row">
+            <div className="col">
               <div className="block">
                 <p>
                   My plan to learn more about agile methodology is to learn
@@ -245,31 +281,8 @@ function Ncr() {
             </div>
           </div>
           <br></br>
-
           <div className="row">
-            <div className="col-sm">
-              <div className="block">
-                <p>
-                  I will know I have achieved my goal when I have created my own
-                  API. In order to create your own API you need to know every
-                  aspect of an API such as what it is, how to make one, and how
-                  to use it so it is by far the best way to show what I have
-                  learned.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm">
-              <div className="block">
-                <p>
-                  I will know I have completed my goal when during my time at
-                  NCR I have debugged my own programs using different testing
-                  methodologies.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm">
+            <div className="col">
               <div className="block">
                 <p>
                   I will know I have learned about Agile development when I have
@@ -288,12 +301,15 @@ function Ncr() {
   }
 
   return (
-    <div className="Ncr">
+    <div className="Ncr2022">
       <header className="PageHeader">
         <br></br>
         <div className="bigboy">NCR Work Report 2021</div>
         <Navbar></Navbar>
-        <div style={{ width: "50%", height: "60%" }} className="block">
+        <br></br>
+        <img src={ncrlogo} className="img-fluid" alt="NCR Logo" />
+        <br></br>
+        <div className="block">
           <p>
             This is my work term report for my remote work term at NCR in
             Waterloo which lasted from September 2021 to December 2021. I
@@ -302,7 +318,9 @@ function Ncr() {
             month work term at NCR.
           </p>
         </div>
+        <br></br>
         <h1>About NCR</h1>
+        <br></br>
         <div className="block">
           <p>
             NCR is an American software, management and professional services,
@@ -319,10 +337,13 @@ function Ncr() {
             this term.
           </p>
         </div>
+        <br></br>
 
         {isMobile() ? getMobileLearningGoals() : getDesktopLearningGoals()}
 
+        <br></br>
         <h1>Did I Achieve My Goals</h1>
+        <br></br>
         <div className="block">
           <p>
             I managed to complete all of the three learning goals for this work
@@ -337,7 +358,9 @@ function Ncr() {
             model.
           </p>
         </div>
+        <br></br>
         <h1>Job Description</h1>
+        <br></br>
         <div className="block">
           <p>
             At NCR the official title for my role was Software Developer and I
@@ -356,8 +379,13 @@ function Ncr() {
             for creating, designing, debugging, and presenting said APIS.
           </p>
         </div>
+        <br></br>
         <h1>Projects I Worked On</h1>
+        <br></br>
+
         <h2>Account Inquiry</h2>
+
+        <br></br>
         <div className="block">
           <p>
             Account inquiry was a feature that allowed a teller to search for
@@ -365,7 +393,9 @@ function Ncr() {
             the balance and type of the account.
           </p>
         </div>
+        <br></br>
         <h2>Mixed Media Deposit</h2>
+        <br></br>
         <div className="block">
           <p>
             Mixed media deposit was a feature that I developed that allowed the
@@ -374,7 +404,9 @@ function Ncr() {
             and end-to-end tests for the feature.
           </p>
         </div>
+        <br></br>
         <h1>Skills I Needed For The Job</h1>
+        <br></br>
         <div className="block">
           <p>
             Throughout my time at NCR I used the skills I learned throughout my
@@ -409,6 +441,7 @@ function Ncr() {
             NCR and now I am far less nervous during presentations.
           </p>
         </div>
+        <br></br>
         <div className="block">
           <p>
             While I did have to learn a lot of new skills for this job there
@@ -424,7 +457,9 @@ function Ncr() {
             easier to get used to and understand the framework.
           </p>
         </div>
+        <br></br>
         <h1>Academic Relation</h1>
+        <br></br>
         <div className="block">
           <p>
             This work term at NCR has been absolutely amazing and I believe I
@@ -450,7 +485,9 @@ function Ncr() {
             educational or otherwise.
           </p>
         </div>
+        <br></br>
         <h1>Conclusion</h1>
+        <br></br>
         <div className="block">
           <p>
             Overall, the job was fantastic and thank you for reading! I hope you
@@ -458,7 +495,9 @@ function Ncr() {
             highlights of working at NCR as a Software Developer.
           </p>
         </div>
+        <br></br>
         <h1>Acknowledgments</h1>
+        <br></br>
         <div className="block">
           <p>
             Thank you to the NCR for giving me an incredible second work term.
@@ -471,9 +510,10 @@ function Ncr() {
             throughout the co-op process.
           </p>
         </div>
+        <br></br>
       </header>
     </div>
   );
 }
 
-export default Ncr;
+export default Ncr2022;

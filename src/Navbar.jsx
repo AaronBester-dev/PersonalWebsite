@@ -9,9 +9,9 @@ function Navbar() {
     <div className="Navbar">
       <div>
         <Link to="/" className="navbutton">Home</Link>
-        <Link to="/" className="navbutton">Co-operators Work Report</Link>
-        <Link to="/ncr" className="navbutton">NCR 2021 Work Report</Link>
-        <Link to="/ncr" className="navbutton">NCR 2022 Work Report</Link>
+        <Link to="/cooperators" className="navbutton">Co-operators Work Report</Link>
+        <Link to="/ncr2021" className="navbutton">NCR 2021 Work Report</Link>
+        <Link to="/ncr2022" className="navbutton">NCR 2022 Work Report</Link>
       </div>
       <br></br>
     </div>
