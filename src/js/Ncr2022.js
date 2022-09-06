@@ -302,7 +302,7 @@ function Ncr2022() {
     <div className="Ncr2022">
       <header className="PageHeader">
         <br></br>
-        <div className="bigboy">NCR Work Report 2022</div>
+        <div className="titlefont">NCR Work Report 2022</div>
         <Navbar></Navbar>
         <br></br>
         <img src={ncrlogo} className='image' alt="NCR Logo" />

@@ -391,7 +391,7 @@ function Cooperators() {
     <div className="Cooperators">
       <header className="PageHeader">
         <br></br>
-        <div className="bigboy">Co-operators Work Report</div>
+        <div className="titlefont">Co-operators Work Report</div>
         <Navbar></Navbar>
         <br></br>
         <img src={cooperatorslogo} className='image' alt="NCR Logo" />

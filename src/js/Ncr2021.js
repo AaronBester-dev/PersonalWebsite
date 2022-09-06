@@ -302,7 +302,7 @@ function Ncr2021() {
     <div className="Ncr2021">
       <header className="PageHeader">
         <br></br>
-        <div className="bigboy">NCR Work Report 2021</div>
+        <div className="titlefont">NCR Work Report 2021</div>
         <Navbar></Navbar>
         <br></br>
         <img src={ncrlogo} className='image' alt="NCR Logo" />
