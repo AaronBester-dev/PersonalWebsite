@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "../css/Navbar.css";
 
 function WorkReportsBar() {
   return (
     <div className="Navbar">
       <div>
-        <Link to="/" className="navbutton">The Cooperators</Link>
+        <Link to="/" className="navbutton">Co-operators</Link>
         <Link to="/ncr2021" className="navbutton">NCR 2021</Link>
         <Link to="/ncr2022" className="navbutton">NCR 2022</Link>
       </div>

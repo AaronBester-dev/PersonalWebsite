@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Ncr2021 from './Ncr2021'
-import Ncr2022 from './Ncr2022'
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './css/index.css';
+import Ncr2021 from './js/Ncr2021'
+import Ncr2022 from './js/Ncr2022'
+import App from './js/App';
+import reportWebVitals from './js/reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cooperators from './Cooperators';
+import Cooperators from './js/Cooperators';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

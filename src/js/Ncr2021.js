@@ -1,19 +1,17 @@
 import React from "react";
-import Navbar from "./Navbar";
-import "./Page.css";
-import ncrlogo from "./images/ncr.png";
+import Navbar from "../jsx/Navbar";
+import "../css/Page.css";
+import ncrlogo from "../files/ncr.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-function Ncr2022() {
+function Ncr2021() {
   function isMobile() {
     const { innerWidth: width } = window;
     console.log(width);
     if (width < 576) {
-      console.log("TRUE");
       return true;
     } else {
-      console.log("FALSE3");
       return false;
     }
   }
@@ -24,7 +22,7 @@ function Ncr2022() {
         <h1>Goals</h1>
         <br></br>
         <h2>Learning Goal 1</h2>
-        <div className="block">
+        <div className="textbox">
           <p>
             The first skill that I would like to learn during my time at NCR is
             how to create APIs. I personally would like to learn more about APIs
@@ -35,7 +33,7 @@ function Ncr2022() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             My plan to learn more about APIs will start with completing NCR’s
             training on APIs. After completing the API training I will be
@@ -48,7 +46,7 @@ function Ncr2022() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             I will know I have achieved my goal when I have created my own API.
             In order to create your own API you need to know every aspect of an
@@ -59,7 +57,7 @@ function Ncr2022() {
         <br></br>
 
         <h2> Learning Goal 2</h2>
-        <div className="block">
+        <div className="textbox">
           <p>
             The second skill I want to learn during my time at NCR is learning
             about different testing methodologies. I want to learn about
@@ -70,7 +68,7 @@ function Ncr2022() {
           </p>
         </div>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             To learn more about different types of software tests is to learn
             about testing methodologies like end-to-end tests, unit tests, and
@@ -86,7 +84,7 @@ function Ncr2022() {
           </p>
         </div>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             I will know I have completed my goal when during my time at NCR I
             have debugged my own programs using different testing methodologies.
@@ -95,7 +93,7 @@ function Ncr2022() {
         <br></br>
 
         <h2> Learning Goal 3</h2>
-        <div className="block">
+        <div className="textbox">
           <p>
             The third and final skill I want to learn during my time at NCR is
             agile software development as most companies have moved away from
@@ -107,7 +105,7 @@ function Ncr2022() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             My plan to learn more about agile methodology is to learn while
             using it at NCR. NCR follows the agile development methodology so
@@ -121,7 +119,7 @@ function Ncr2022() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             I will know I have learned about Agile development when I have
             reached the end of my work term at NCR and all of my assigned tasks
@@ -154,7 +152,7 @@ function Ncr2022() {
           <br></br>
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   The first skill that I would like to learn during my time at
                   NCR is how to create APIs. I personally would like to learn
@@ -167,7 +165,7 @@ function Ncr2022() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   The second skill I want to learn during my time at NCR is
                   learning about different testing methodologies. I want to
@@ -183,7 +181,7 @@ function Ncr2022() {
 
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   My plan to learn more about APIs will start with completing
                   NCR’s training on APIs. After completing the API training I
@@ -197,7 +195,7 @@ function Ncr2022() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   To learn more about different types of software tests is to
                   learn about testing methodologies like end-to-end tests, unit
@@ -218,7 +216,7 @@ function Ncr2022() {
           <br></br>
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I will know I have achieved my goal when I have created my own
                   API. In order to create your own API you need to know every
@@ -231,7 +229,7 @@ function Ncr2022() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I will know I have completed my goal when during my time at
                   NCR I have debugged my own programs using different testing
@@ -250,7 +248,7 @@ function Ncr2022() {
 
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   The third and final skill I want to learn during my time at
                   NCR is agile software development as most companies have moved
@@ -266,7 +264,7 @@ function Ncr2022() {
 
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   My plan to learn more about agile methodology is to learn
                   while using it at NCR. NCR follows the agile development
@@ -283,7 +281,7 @@ function Ncr2022() {
           <br></br>
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I will know I have learned about Agile development when I have
                   reached the end of my work term at NCR and all of my assigned
@@ -301,15 +299,15 @@ function Ncr2022() {
   }
 
   return (
-    <div className="Ncr2022">
+    <div className="Ncr2021">
       <header className="PageHeader">
         <br></br>
         <div className="bigboy">NCR Work Report 2021</div>
         <Navbar></Navbar>
         <br></br>
-        <img src={ncrlogo} className="img-fluid" alt="NCR Logo" />
+        <img src={ncrlogo} className='image' alt="NCR Logo" />
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             This is my work term report for my remote work term at NCR in
             Waterloo which lasted from September 2021 to December 2021. I
@@ -321,7 +319,7 @@ function Ncr2022() {
         <br></br>
         <h1>About NCR</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             NCR is an American software, management and professional services,
             consulting and technology company that was founded in 1884 in
@@ -344,7 +342,7 @@ function Ncr2022() {
         <br></br>
         <h1>Did I Achieve My Goals</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             I managed to complete all of the three learning goals for this work
             term. The three learning goals I set for this work term were
@@ -361,7 +359,7 @@ function Ncr2022() {
         <br></br>
         <h1>Job Description</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             At NCR the official title for my role was Software Developer and I
             was in the core integration team. The core integration team at NCR
@@ -386,7 +384,7 @@ function Ncr2022() {
         <h2>Account Inquiry</h2>
 
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             Account inquiry was a feature that allowed a teller to search for
             and retrieve information about all of a customer’s accounts such as
@@ -396,7 +394,7 @@ function Ncr2022() {
         <br></br>
         <h2>Mixed Media Deposit</h2>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             Mixed media deposit was a feature that I developed that allowed the
             user to deposit both cash and check amounts into an account in a
@@ -407,7 +405,7 @@ function Ncr2022() {
         <br></br>
         <h1>Skills I Needed For The Job</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             Throughout my time at NCR I used the skills I learned throughout my
             programming career as well as learned a couple of new skills. The
@@ -442,7 +440,7 @@ function Ncr2022() {
           </p>
         </div>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             While I did have to learn a lot of new skills for this job there
             were also many skills that I had already learned previously that
@@ -460,7 +458,7 @@ function Ncr2022() {
         <br></br>
         <h1>Academic Relation</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             This work term at NCR has been absolutely amazing and I believe I
             have learned a lot that will help me in my academic learning in the
@@ -488,7 +486,7 @@ function Ncr2022() {
         <br></br>
         <h1>Conclusion</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             Overall, the job was fantastic and thank you for reading! I hope you
             learned a lot about what I learned during the work term, and my
@@ -498,7 +496,7 @@ function Ncr2022() {
         <br></br>
         <h1>Acknowledgments</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             Thank you to the NCR for giving me an incredible second work term.
             My job at NCR was absolutely fantastic and was one of the best work
@@ -516,4 +514,4 @@ function Ncr2022() {
   );
 }
 
-export default Ncr2022;
+export default Ncr2021;

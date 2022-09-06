@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
-import "./Page.css";
-import cooperatorslogo from "./images/cooperators.png";
+import Navbar from "../jsx/Navbar";
+import "../css/Page.css";
+import cooperatorslogo from "../files/cooperators.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
@@ -10,10 +10,8 @@ function Cooperators() {
     const { innerWidth: width } = window;
     console.log(width);
     if (width < 576) {
-      console.log("TRUE");
       return true;
     } else {
-      console.log("FALSE3");
       return false;
     }
   }
@@ -24,7 +22,7 @@ function Cooperators() {
         <h1>Goals</h1>
         <br></br>
         <h2>Learning Goal 1</h2>
-        <div className="block">
+        <div className="textbox">
           <p>
             I would like to improve my ability to work in a team with my
             co-workers. Being able to properly communicate and work with your
@@ -40,7 +38,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             My action plan is to immediately start trying to communicate more
             with my team members. I will communicate with my team whenever I run
@@ -53,7 +51,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             I will know my goal has been achieved when I reach the end of the
             work term and most if not all of the work we have been assigned has
@@ -66,7 +64,7 @@ function Cooperators() {
         <br></br>
 
         <h2> Learning Goal 2</h2>
-        <div className="block">
+        <div className="textbox">
           <p>
             I would like to learn how to properly use the Guidewire Suite.
             Learning Guidewire would be very useful in the future if I ever want
@@ -80,7 +78,7 @@ function Cooperators() {
           </p>
         </div>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             My action plan is to complete all of the required Guidewire training
             for the Guidewire Developer Certificate. Then once I have completed
@@ -92,7 +90,7 @@ function Cooperators() {
           </p>
         </div>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             The measure of success for this learning goal is to pass the final
             Guidewire Developer training course and receive my Guidewire
@@ -102,7 +100,7 @@ function Cooperators() {
         <br></br>
 
         <h2> Learning Goal 3</h2>
-        <div className="block">
+        <div className="textbox">
           <p>
             I would like to improve my information retention skills. I sometimes
             find that after a meeting I often forget some important points and I
@@ -116,7 +114,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             My plan to complete this learning goal is to take notes during each
             and every meeting. I will compile an online notebook filled with
@@ -126,7 +124,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             I will know I have completed my goal when I have a complete notebook
             of important notes by the end of my work term.
@@ -135,7 +133,7 @@ function Cooperators() {
         <br></br>
 
         <h2> Learning Goal 4</h2>
-        <div className="block">
+        <div className="textbox">
           <p>
             During this work term, I would like to learn more about
             Object-Oriented programming. Object-Oriented Programming is a
@@ -150,7 +148,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             My plan of action is to spend time outside of work reading up on
             object-oriented concepts as well as completing object-oriented
@@ -161,7 +159,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             I will know I will have succeeded in my goal when by the end of the
             work term I will be able to complete object-oriented problems and an
@@ -194,7 +192,7 @@ function Cooperators() {
           <br></br>
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I would like to improve my ability to work in a team with my
                   co-workers. Being able to properly communicate and work with
@@ -212,7 +210,7 @@ function Cooperators() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I would like to learn how to properly use the Guidewire Suite.
                   Learning Guidewire would be very useful in the future if I
@@ -232,7 +230,7 @@ function Cooperators() {
 
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   My action plan is to immediately start trying to communicate
                   more with my team members. I will communicate with my team
@@ -247,7 +245,7 @@ function Cooperators() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   My action plan is to complete all of the required Guidewire
                   training for the Guidewire Developer Certificate. Then once I
@@ -264,7 +262,7 @@ function Cooperators() {
           <br></br>
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I will know my goal has been achieved when I reach the end of
                   the work term and most if not all of the work we have been
@@ -278,7 +276,7 @@ function Cooperators() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   The measure of success for this learning goal is to pass the
                   final Guidewire Developer training course and receive my
@@ -301,7 +299,7 @@ function Cooperators() {
 
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I would like to improve my information retention skills. I
                   sometimes find that after a meeting I often forget some
@@ -317,7 +315,7 @@ function Cooperators() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   During this work term, I would like to learn more about
                   Object-Oriented programming. Object-Oriented Programming is a
@@ -337,7 +335,7 @@ function Cooperators() {
 
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   My plan to complete this learning goal is to take notes during
                   each and every meeting. I will compile an online notebook
@@ -349,7 +347,7 @@ function Cooperators() {
             </div>
 
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   My plan of action is to spend time outside of work reading up
                   on object-oriented concepts as well as completing
@@ -363,7 +361,7 @@ function Cooperators() {
           <br></br>
           <div className="row">
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I will know I have completed my goal when I have a complete
                   notebook of important notes by the end of my work term.
@@ -371,7 +369,7 @@ function Cooperators() {
               </div>
             </div>
             <div className="col">
-              <div className="block">
+              <div className="columntextbox">
                 <p>
                   I will know I will have succeeded in my goal when by the end
                   of the work term I will be able to complete object-oriented
@@ -393,12 +391,12 @@ function Cooperators() {
     <div className="Cooperators">
       <header className="PageHeader">
         <br></br>
-        <div className="bigboy">NCR Work Report 2021</div>
+        <div className="bigboy">Co-operators Work Report</div>
         <Navbar></Navbar>
         <br></br>
-        <img src={cooperatorslogo} className="img-fluid" alt="NCR Logo" />
+        <img src={cooperatorslogo} className='image' alt="NCR Logo" />
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             This is my work term report for my remote work term at the
             Co-operators in Guelph which lasted from May 2021 to September 2021.
@@ -409,7 +407,7 @@ function Cooperators() {
         <br></br>
         <h1>About Co-operators</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             The Co-operators is a Canadian insurance co-operative that was
             founded in 1945 in Saskatchewan. Since then Co-operators has grown
@@ -430,7 +428,7 @@ function Cooperators() {
         <br></br>
         <h1>Did I Achieve My Goals</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             I managed to complete two of the four learning goals I had for this
             work term. The two I managed to complete were learning goal 4, about
@@ -466,7 +464,7 @@ function Cooperators() {
         <br></br>
         <h1>Job Description</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             At the Co-operators the official title for my role was Junior
             Systems Developer. As a Junior Systems Developer my task was to
@@ -485,7 +483,7 @@ function Cooperators() {
         <br></br>
         <h1>Highlights Of The Job</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             The first highlight of the job was the first-ever project that me
             and my team worked on which was fixing smoke tests on each one of
@@ -524,7 +522,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             The second highlight of my job was creating a brand new feature for
             their web application called Renewal Hold. Renewal Hold was a
@@ -552,7 +550,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             The third and final highlight of the job was the final project me
             and my team worked on. The final project I worked on was upgrading
@@ -583,7 +581,7 @@ function Cooperators() {
         </div>
         <br></br>
 
-        <div className="block">
+        <div className="textbox">
           <p>
             Overall, the job was by far the best job I have ever had and I
             learned a lot. Because of this job I learned how to properly
@@ -599,7 +597,7 @@ function Cooperators() {
         <br></br>
         <h1>Academic Relation</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             This job thoroughly enhanced my academic experience as I learned a
             ton from it that I can now use during my next study term and during
@@ -620,7 +618,7 @@ function Cooperators() {
         <br></br>
         <h1>Conclusion</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             Overall, the job was fantastic and thank you for reading about my
             job, what I learned during the work term, and my highlights of
@@ -630,7 +628,7 @@ function Cooperators() {
         <br></br>
         <h1>Acknowledgments</h1>
         <br></br>
-        <div className="block">
+        <div className="textbox">
           <p>
             Thank you to the Co-operators for giving me an amazing first work
             term. My job at the Co-operators was easily the best I have ever had
