@@ -19,9 +19,9 @@ function Ncr2021() {
   function getMobileLearningGoals() {
     return (
       <div style={{ textAlign: "center" }}>
-        <h1>Goals</h1>
+        <h2>Goals</h2>
         <br></br>
-        <h2>Learning Goal 1</h2>
+        <h3>Learning Goal 1</h3>
         <div className="textbox">
           <p>
             The first skill that I would like to learn during my time at NCR is
@@ -56,7 +56,7 @@ function Ncr2021() {
         </div>
         <br></br>
 
-        <h2> Learning Goal 2</h2>
+        <h3> Learning Goal 2</h3>
         <div className="textbox">
           <p>
             The second skill I want to learn during my time at NCR is learning
@@ -92,7 +92,7 @@ function Ncr2021() {
         </div>
         <br></br>
 
-        <h2> Learning Goal 3</h2>
+        <h3> Learning Goal 3</h3>
         <div className="textbox">
           <p>
             The third and final skill I want to learn during my time at NCR is
@@ -137,16 +137,16 @@ function Ncr2021() {
   function getDesktopLearningGoals() {
     return (
       <div>
-        <h1 style={{ textAlign: "center" }}>Goals </h1>
+        <h2 style={{ textAlign: "center" }}>Goals </h2>
         <br></br>
         <div className="container text-center">
           <div className="row">
             <div className="col">
-              <h2>Learning Goal</h2>
+              <h3>Learning Goal</h3>
             </div>
 
             <div className="col">
-              <h2> Learning Goal 2</h2>
+              <h3> Learning Goal 2</h3>
             </div>
           </div>
           <br></br>
@@ -241,7 +241,7 @@ function Ncr2021() {
           </div>
           <div className="row">
             <div className="col">
-              <h2> Learning Goal 3</h2>
+              <h3> Learning Goal 3</h3>
             </div>
           </div>
           <br></br>
@@ -317,7 +317,7 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h1>About NCR</h1>
+        <h2>About NCR</h2>
         <br></br>
         <div className="textbox">
           <p>
@@ -340,7 +340,7 @@ function Ncr2021() {
         {isMobile() ? getMobileLearningGoals() : getDesktopLearningGoals()}
 
         <br></br>
-        <h1>Did I Achieve My Goals</h1>
+        <h2>Did I Achieve My Goals</h2>
         <br></br>
         <div className="textbox">
           <p>
@@ -357,7 +357,7 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h1>Job Description</h1>
+        <h2>Job Description</h2>
         <br></br>
         <div className="textbox">
           <p>
@@ -378,10 +378,10 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h1>Projects I Worked On</h1>
+        <h2>Projects I Worked On</h2>
         <br></br>
 
-        <h2>Account Inquiry</h2>
+        <h3>Account Inquiry</h3>
 
         <br></br>
         <div className="textbox">
@@ -392,7 +392,7 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h2>Mixed Media Deposit</h2>
+        <h3>Mixed Media Deposit</h3>
         <br></br>
         <div className="textbox">
           <p>
@@ -403,7 +403,7 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h1>Skills I Needed For The Job</h1>
+        <h2>Skills I Needed For The Job</h2>
         <br></br>
         <div className="textbox">
           <p>
@@ -456,7 +456,7 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h1>Academic Relation</h1>
+        <h2>Academic Relation</h2>
         <br></br>
         <div className="textbox">
           <p>
@@ -484,7 +484,7 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h1>Conclusion</h1>
+        <h2>Conclusion</h2>
         <br></br>
         <div className="textbox">
           <p>
@@ -494,7 +494,7 @@ function Ncr2021() {
           </p>
         </div>
         <br></br>
-        <h1>Acknowledgments</h1>
+        <h2>Acknowledgments</h2>
         <br></br>
         <div className="textbox">
           <p>

@@ -13,6 +13,7 @@
 .titlefont{
   font-family: Georgia, sans-serif;
   font-size: 4em;
+  text-align: center;
 }
 
 h1,h2,p{
@@ -21,6 +22,8 @@ h1,h2,p{
   padding-top: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
+  text-align: center;
+  
 }
 
 h1{
@@ -29,6 +32,10 @@ h1{
 
 h2{
   font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
 }
 
 .image{
