@@ -89,7 +89,7 @@ function App() {
             </h2>
           </div>
           <br></br>
-          <a href={require("../files/AaronBesterResume.pdf")} className="navbutton" download="myFile">Download Resume</a>
+          <a href={require("../files/AaronBesterResume.pdf")} className="navbutton" download="AaronBesterResume">Download Resume</a>
         </div> </header>
     </div>
   );
