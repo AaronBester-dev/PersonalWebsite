@@ -142,7 +142,7 @@ function Ncr2021() {
         <div className="container text-center">
           <div className="row">
             <div className="col">
-              <h3>Learning Goal</h3>
+              <h3>Learning Goal 1</h3>
             </div>
 
             <div className="col">
