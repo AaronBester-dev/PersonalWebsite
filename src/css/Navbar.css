@@ -1,18 +1,25 @@
 .navbutton {
-  display: flex;
-  width: 360px;
-  height: 90px;
-  line-height: 90px;
+  display:flex;
+  width: 100%;
+  max-width: 290px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+  min-height: 90px;
   background:	#FFFFF0;
   color: black;
-  text-align: center;  
-  text-decoration: none;
   display: inline-block;
   border-radius: 5000px;
   font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
-  font-weight:500;
+  font-weight:400;
   font-size: 1em;
-  margin-bottom: 10px;
-  margin-right: 10px;
+}
 
+.navlink{
+  color: black;
+  padding: 2em;
+  text-decoration: none;
+  margin: -2em;
 }

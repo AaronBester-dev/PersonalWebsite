@@ -29,8 +29,6 @@ function App() {
             the amazing experiences I’ve had so far doing coop jobs!
           </h2>
         </div>
-        <br></br>
-        <img src={aaron} className='image' alt="Aaron" />
       </div>
     );
   }
@@ -89,8 +87,12 @@ function App() {
             </h2>
           </div>
           <br></br>
-          <a href={require("../files/AaronBesterResume.pdf")} className="navbutton" download="AaronBesterResume">Download Resume</a>
-        </div> </header>
+          <button className="navbutton">
+            <a href={require("../files/AaronBesterResume.pdf")} className="navlink" download="AaronBesterResume">Download Resume</a>
+          </button>
+          <br></br>
+        </div> 
+        </header>
     </div>
   );
 }

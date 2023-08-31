@@ -7,6 +7,7 @@ import App from './js/App';
 import reportWebVitals from './js/reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cooperators from './js/Cooperators';
+import CellScale from './js/CellScale';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <Route path='/ncr2021' element={<Ncr2021 />}></Route>
       <Route path='/ncr2022' element={<Ncr2022 />}></Route>
       <Route path='/cooperators' element={<Cooperators />}></Route>
+      <Route path='/cellscale' element={<CellScale />}></Route>
     </Routes>
     
   </ BrowserRouter>
